@@ -42,4 +42,11 @@ button {
     color: black;
     font-size: 12px;
     margin-bottom: 10px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.pixel:hover, 
+.reset:hover {
+    cursor: pointer;
 }
