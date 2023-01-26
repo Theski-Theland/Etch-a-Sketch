@@ -3,6 +3,7 @@ body {
     height: 100%;
     background: rgb(180, 180, 180);
     padding-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .game-container {
@@ -19,12 +20,13 @@ body {
     font-size: 42px;
     letter-spacing: 4px;
     border: 5px solid black;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .drawing-board {
     width: 75%;
-    height: 70%;
-    background-color: white;
+    height: 75%;
+    background-color: rgb(220, 220, 220);
     margin: 20px auto;
     border: 3px solid black;
     border-radius: 2px;
@@ -32,7 +34,7 @@ body {
 
 .buttons-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 button {
@@ -40,10 +42,11 @@ button {
     height: 5rem;
     background-color: rgb(180, 180, 180);
     color: black;
-    font-size: 12px;
-    margin-bottom: 10px;
+    font-size: 18px;
+    margin: 0 5px 5px 5px;
     border-radius: 50px;
     border: 2px solid black;
+    text-transform: uppercase;
 }
 
 .pixel:hover, 
